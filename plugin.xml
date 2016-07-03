@@ -81,6 +81,8 @@
         <resource-file src="sdk/ios/lib/Channels/Alipay/AlipaySDK.bundle"/>
         <framework src="sdk/ios/lib/Channels/Alipay/AlipaySDK.framework" custom="true"/>
         <source-file src="sdk/ios/lib/Channels/Alipay/libpingpp+alipay.a" framework="true"/>
+        <source-file src="sdk/ios/lib/Channels/UnionPay/libPaymentControl.a" framework="true"/>
+        <source-file src="sdk/ios/lib/Channels/UnionPay/libpingpp+up.a" framework="true"/>
         <source-file src="sdk/ios/lib/Channels/Wx/libpingpp+wx.a" framework="true"/>
         <source-file src="sdk/ios/lib/Channels/Wx/libWeChatSDK.a" framework="true"/>
         <header-file src="sdk/ios/lib/Channels/Wx/WXApi.h" />
