@@ -56,7 +56,15 @@
         <source-file src="src/android/PingppPlugin.java" target-dir="src/me/tongchia/cordova/"/>
         <source-file src="sdk/android/lib/pingpp/libs/alipaySdk-20160223.jar" target-dir="libs"/>
         <source-file src="sdk/android/lib/pingpp/libs/libammsdk.jar" target-dir="libs"/>
+        <source-file src="sdk/android/lib/pingpp/libs/UPPayAssistEx.jar" target-dir="libs"/>
+        <source-file src="sdk/android/lib/pingpp/libs/UPPayPluginExPro.jar" target-dir="libs"/>
         <source-file src="sdk/android/lib/pingpp/libs/libpingpp-2.1.3.jar" target-dir="libs"/>
+        <source-file src="sdk/android/lib/pingpp/libs/armeabi/libentryexpro.so" target-dir="libs/armeabi"/>
+        <source-file src="sdk/android/lib/pingpp/libs/armeabi/libuptsmaddon.so" target-dir="libs/armeabi"/>
+        <source-file src="sdk/android/lib/pingpp/libs/arm64-v8a/libentryexpro.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="sdk/android/lib/pingpp/libs/arm64-v8a/libuptsmaddon.so" target-dir="libs/arm64-v8a"/>
+        <source-file src="sdk/android/lib/pingpp/libs/armeabi-v7a/libentryexpro.so" target-dir="libs/armeabi-v7a"/>
+        <source-file src="sdk/android/lib/pingpp/libs/armeabi-v7a/libuptsmaddon.so" target-dir="libs/armeabi-v7a"/>
     </platform>
 
     <platform name="ios">
